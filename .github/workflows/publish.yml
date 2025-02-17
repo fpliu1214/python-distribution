@@ -30,7 +30,7 @@ jobs:
 
           cat > QUERY <<EOF
           {
-            repository(owner: "leleliu008", name: "python-distribution") {
+            repository(owner: "fpliu1214", name: "python-distribution") {
                 latestRelease {
                   name
                 }
