@@ -316,7 +316,7 @@ inspect_install_arguments() {
     PYTHON_EDITION="$1"
 
     case $PYTHON_EDITION in
-        3.1[0-3])
+        3.1[0-4])
             ;;
         3.9);;
         *)  abort 1 "unsupported python edition: $PYTHON_EDITION"
